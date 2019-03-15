@@ -1,49 +1,28 @@
 package LessonSort.Bubble;
+import java.util.Arrays;
 
 public class Bubble {
     public static void main(String[] args) {
+        int[] arry = new int[10];
 
-        int []  arry = new int[10];
 
-        for (int i= 0 ; i<arry.length ; i++){
-            int rand = (int)(Math.random()*9) ;
-            arry[i]=rand;
-        }
+        for (int i = 0; i < arry.length; i++)
+            arry[i] = (int) (Math.random() * 99);
 
-        for (int print:arry) {
-            System.out.print(print);
-        }
-        System.out.println();
+        System.out.println(Arrays.toString(arry));
+        System.out.println("----------------------------------------");
 
-        for (int i=0 ; i<arry.length ; i++){
-            System.out.print(arry[i]);
-        }
-        System.out.println();
-
-        for (int j=0 ; j<arry.length ; j++ ){
-            for (int i = 0 ; i < (arry.length - 1) ; i++ ){
-                if (arry[i] >arry[i+1]){
-                    int a = arry[i+1];
-                    arry[i+1] = arry[i] ;
-                    arry[i] = a ;
+        for (int size = 0; size < arry.length ; size++) {
+            for (int index = 0; index < arry.length-(size+1); index++) {
+                if (arry[index] > arry[index + 1]) {
+                    int a = arry[index + 1];
+                    arry[index + 1] = arry[index];
+                    arry[index] = a;
                 }
+
             }
+            System.out.println(Arrays.toString(arry));
         }
-
-
-        for (int i=0 ; i<arry.length ; i++){
-            System.out.print(arry[i]);
-        }
-        System.out.println();
-
-
-
-
-
-
-
-
-
 
 
     }
