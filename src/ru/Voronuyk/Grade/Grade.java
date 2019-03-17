@@ -1,4 +1,4 @@
-package Grade;
+package ru.Voronuyk.Grade;
 
 public class Grade {
     public static void main(String[] args) {
