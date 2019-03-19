@@ -1,6 +1,9 @@
 package ru.Voronuyk.Grade;
 
 public class Grade {
+    /*
+    грудус между часовой и минутной стрелкой.
+    */
     public static void main(String[] args) {
 
         int hour = (int) (Math.random() * 12);
