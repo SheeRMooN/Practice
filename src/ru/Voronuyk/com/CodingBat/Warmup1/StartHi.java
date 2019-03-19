@@ -15,7 +15,7 @@ public class StartHi {
     public static boolean startHi(String str) {
         boolean res;
 
-        if (str.length()<2 & str.substring(0,2 ).equals("hi")){
+        if (str.length()>1 & str.substring(0,2 ).equals("hi")){
             res = true;
         }else {
             res = false;
