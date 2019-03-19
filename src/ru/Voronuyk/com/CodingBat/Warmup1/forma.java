@@ -1,6 +1,6 @@
 package ru.Voronuyk.com.CodingBat.Warmup1;
 
-public class form {
+public class forma {
     /*
     */
     public static void main(String[] args) {

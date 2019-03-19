@@ -21,7 +21,6 @@ public class Diff21 {
     }else {
         res = 21 - n;
     }
-
         System.out.println(res);
     return res;
     }
