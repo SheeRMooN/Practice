@@ -15,7 +15,14 @@ icyHot(2, 120) → false
         icyHot(2, 120) ;
     }
     public static boolean icyHot(int temp1, int temp2) {
-        boolean res = true;
+        boolean res ;
+        if (temp1>100 & temp2<0){
+            res = true;
+        }else if (temp1<0 & temp2>100){
+            res = true;
+        }else {
+            res = false;
+        }
 
         System.out.println(res);
         return res;
