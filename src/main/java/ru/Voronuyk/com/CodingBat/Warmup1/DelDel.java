@@ -10,11 +10,17 @@ delDel("adelHello") → "aHello"
 delDel("adedbc") → "adedbc"
      */
     public static void main(String[] args) {
-
+        delDel("adelbc") ;
+        delDel("adelHello");
+        delDel("adedbc") ;
     }
     public static String delDel(String str) {
-        String res ;
-
+        String res = "";
+        if (str.length()>3 && str.substring(1,4 ).equals("del")){
+            res = str.substring(0,1) + str.substring(4, str.length());
+        }else {
+            res = str;
+        }
         System.out.println(res);
         return res;
     }
