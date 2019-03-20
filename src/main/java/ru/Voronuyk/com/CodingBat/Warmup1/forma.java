@@ -7,9 +7,23 @@ public class forma {
 
     }
     public static boolean makes10(int a, int b) {
-        boolean res = true;
+        boolean res = false;
 
         System.out.println(res);
         return res;
     }
 }
+/*
+
+public static void main(String[] args) {
+
+}
+    public static int[] reverse3(int[] nums) {
+        int[] res;
+        int value;
+
+        System.out.println(Arrays.toString(res));
+        return res;
+    }
+}
+*/
