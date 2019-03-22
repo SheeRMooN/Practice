@@ -1,4 +1,4 @@
-package ru.Voronuyk.com.CodingBat.Warmup1;
+package ru.Voronuyk.com.CodingBat;
 
 public class forma {
     /*
